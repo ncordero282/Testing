@@ -4,8 +4,8 @@ Write-Host "===================== Main Menu =======================" -Foreground
 Write-Host "================ www.brookspeppin.com =================" -ForegroundColor Yellow
 Write-Host "====================@brookspeppin =====================" -ForegroundColor Yellow
 Write-Host "=======================================================" -ForegroundColor Yellow
-Write-Host "1: Zero-Touch Win10 21H1 | English | Enterprise"-ForegroundColor Yellow
-Write-Host "2: Zero-Touch Win10 20H2 | English | Enterprise" -ForegroundColor Yellow
+Write-Host "1: Zero-Touch Win10 22H2| English | Enterprise"-ForegroundColor Yellow
+Write-Host "2: Zero-Touch Win10 23H2 | English | Enterprise" -ForegroundColor Yellow
 Write-Host "3: I'll select it myself"-ForegroundColor Yellow
 Write-Host "4: Exit`n"-ForegroundColor Yellow
 $input = Read-Host "Please make a selection"
