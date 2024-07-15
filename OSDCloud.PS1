@@ -7,6 +7,16 @@ Write-Host "2: I'll select it myself"-ForegroundColor Yellow
 Write-Host "3: Exit`n"-ForegroundColor Yellow
 $input = Read-Host "Please make a selection"
 
+# Get the computer system information
+$computerSystem = Get-WmiObject -Class Win32_ComputerSystem
+
+# Extract the model from the computer system information
+$model = $computerSystem.Model
+
+# Display the model
+Write-Host "The model of this PC is: $model"
+
+
 Write-Host  -ForegroundColor Yellow "Loading OSDCloud..."
 
 Import-Module OSD -Force
